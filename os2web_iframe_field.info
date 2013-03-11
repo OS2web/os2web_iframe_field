@@ -1,0 +1,6 @@
+name = "OS2Web iFrame Field"
+description = "iFrame Field module for OS2Web projects"
+package = OS2Web
+core = 7.x
+version = "7.x-1.0"
+project = os2web_iframe_field
