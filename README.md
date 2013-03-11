@@ -3,8 +3,8 @@ OS2Web iFrame Field
 
 Description
 -----------
-This module provides an iFrame field to all types.
-The field can be adjusted in the width and height.
+This module provides an iFrame field display to text fields.
+The field can be adjusted in width and height.
 
 Dependencies
 -----------
