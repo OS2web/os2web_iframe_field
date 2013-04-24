@@ -83,3 +83,14 @@ function os2web_iframe_field_field_formatter_view($entity_type, $entity, $field,
 
   return $element;
 }
+
+/**
+ * Implements hook_os2web_help().
+ */
+function os2web_iframe_field_os2web_help($sections) {
+
+  // Content types.
+  $sections['contenttype'] = t('<p><b>iFrame Field:</b> Many contenttypes accept to add an iFrame to its content. In the iframe field, specify the URL and th iframe will automatically generated on the page.</p>');
+
+  return $sections;
+}
